@@ -1,0 +1,145 @@
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currículo</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&family=Oswald:wght@700&family=Rubik+Iso&family=Silkscreen:wght@400;700&display=swap"rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/game-style.css" />
+    <link rel="icon" href="src/imgs/favicon-16x16.png">
+
+  </head>
+  <body>
+    <div class="container">
+      <aside>
+        <header>
+          <img src="src/imgs/perfil.png"/>
+          <h1>Bruno Zanella</h1>
+        </header>
+        <article>
+          <hr />
+          <p>
+            O empenho em analisar o comprometimento entre as equipes desafia a capacidade de equalização das formas de ação. Do mesmo modo, a contínua expansão de nossa atividade
+            exige a precisão e a definição dos paradigmas corporativos.
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque est quidem nulla quaerat, voluptas, iste, possimus saepe nisi excepturi accusantium ducimus itaque sit totam aliquam? Ducimus fugiat autem modi excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas nisi enim, consectetur similique ea aperiam accusantium quidem exercitationem sapiente nostrum? Amet totam doloremque nisi dolore fugiat id deleniti officiis quam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor eius aspernatur, consectetur voluptate provident numquam vitae dolorem laborum iure cumque! Enim ipsam eius ipsa eos exercitationem? Laudantium, voluptatibus. Nostrum, ratione!
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est illum ratione veniam, iste nostrum natus ex consequatur ipsum sequi praesentium quisquam tenetur temporibus quaerat! Reiciendis et architecto sint. Magnam, id!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero temporibus ex fugit atque ipsum similique ullam repudiandae asperiores nemo tempore nulla facilis aut dicta fugiat, ea nesciunt tempora in corporis.
+          </p>
+        </article>
+      </aside>
+      <main>
+        <section>
+          <header>
+            <h2>Experiência</h2>
+          </header>
+          <div class="container-exp">
+           
+            <div class="exp-box">
+             
+              <div>
+                <h3>Fenômeno da Internet</h3>
+                <p>O empenho em analisar o comprometimento entre as equipes desafia a capacidade de equalização das formas de ação</p>
+              </div>
+              <div>
+                <h3>Fenômeno da Internet</h3>
+                <p>O empenho em analisar o comprometimento entre as equipes desafia a capacidade de equalização das formas de ação</p>
+              </div>
+            </div>
+            <div class="exp-box">
+              <div>
+                <h3>Fenômeno da Internet</h3>
+                <p>O empenho em analisar o comprometimento entre as equipes desafia a capacidade de equalização das formas de ação</p>
+              </div>
+              <div>
+                <h3>Fenômeno da Internet</h3>
+                <p>O empenho em analisar o comprometimento entre as equipes desafia a capacidade de equalização das formas de ação</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <header>
+            <h2>Skills</h2>
+          </header>
+          <ul>
+            <li>
+              <h3>HTML</h3>
+              <progress value="70" max="100">70%</progress>
+            </li>
+            <li>
+              <h3>CSS</h3>
+              <progress value="40" max="100">40%</progress>
+            </li>
+            <li>
+              <h3>JS</h3>
+              <progress value="35" max="100">20%</progress>
+            </li>
+            <li>
+              <h3>Pegasystems</h3>
+              <progress value="65" max="100">50%</progress>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <div class="contato">
+            <header>
+              <h2>Contato</h2>
+              <h3 style="color: rgb(0, 0, 0); margin: 10px;"> Entre em contato através do formulário abaixo.</h3>
+            </header>
+            <form style="margin-top: -30px"action="https://formspree.io/f/mgeqvzpg" method="POST" target="_blank">
+              <div class="block-ip">
+                <label style="padding-right: 25px;">
+                  <h3 style="text-align: left;">Nome:</h3>
+                  <input required="required" type="name" name="name" />
+                </label>
+                <label style="padding-right: 25px;">
+                  <h3 style="text-align: left;">Email:</h3>
+                  <input required="required" type="email" name="email" />
+                </label>
+                <label style="padding-right: 25px;">
+                  <h3 style="text-align: left;">Telefone:</h3>
+                  <input required="required" type="number" name="phone" />
+                </label>
+              </div>
+              <div>
+                <label class="msg">
+                  <h3 style="text-align: left;">Deixe sua mensagem:</h3>
+                  <textarea name="message"></textarea>
+                </label>
+                <button class=" btn-submit-msg" type="submit">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    </div>
+   
+   <div class="container" id="container-game">
+    
+      <div class="container-game" >
+        <button class="btn-play"type="button" onclick="playAgain()">PLAY</button>
+        <div id="player">
+          <img src="src/imgs/dino-game.svg" alt="">
+        </div>
+        <div id="obstacle">
+          <img src="src/imgs/cacto-game.svg" alt="">
+        </div>
+      </div>
+    </div>
+    <script src="src/script.js" class="jump"></script>
+    <footer><h6>Copyright by bzanella</h6></footer>
+    </body>
+</html>
+<php?>
+</php>
